@@ -72,7 +72,7 @@ export default function App() {
         <Watchlist quotes={quotes} selected={selected} onSelect={setSelected} />
       </main>
 
-    <footer className="app__foot">
+      <footer className="app__foot">
         <span>
           Real-time feed is simulated for this demo. Built with React and TypeScript by Ravneek Bhullar
           {" · "}
