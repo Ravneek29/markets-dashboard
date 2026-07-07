@@ -72,11 +72,17 @@ export default function App() {
         <Watchlist quotes={quotes} selected={selected} onSelect={setSelected} />
       </main>
 
-      <footer className="app__foot">
+     <footer className="app__foot">
         <span>
-          Demo feed is simulated locally. Replace the feed in
-          <code> src/lib/marketFeed.ts </code>
-          with a live WebSocket or REST source to go real.
+          Real-time feed is simulated for this demo. Built with React and TypeScript by Ravneek Bhullar ·{" "}
+          
+            href="https://github.com/Ravneek29/markets-dashboard"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "var(--accent)" }}
+          >
+            View source on GitHub
+          </a>
         </span>
       </footer>
     </div>
