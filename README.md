@@ -6,7 +6,7 @@ market-summary strip, all updating on each tick. The data feed is simulated
 locally so the app runs with zero API keys, and is structured so a real
 WebSocket or REST source drops straight in.
 
-> Live demo: _add your GitHub Pages / Vercel URL here_
+**Live demo:** https://markets-dashboard-delta.vercel.app
 
 ## What this project demonstrates
 
